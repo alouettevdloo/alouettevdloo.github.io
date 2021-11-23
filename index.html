@@ -3,6 +3,7 @@
 <head>
   <title> My Coding Journey </title>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <style>
     h1 {
       color: #66FCF1;
@@ -13,8 +14,15 @@
     }
     h2 {
       color: white;
-      font-family: sans-serif;
+      font-family: Poppins, sans-serif;
       font-size: 20px;
+      line-height: 30px;
+    }
+    p {
+      color: white;
+      font-family: Poppins, sans-serif;
+      font-size: 12px;
+      line-height: 25px;
     }
     hr {
       border-color: #66FCF1;
@@ -23,10 +31,10 @@
       overflow: hidden;
     }
     .topnav a {
-      float: left;
+      float: right;
       Color: #45A29E;
       text-align: center;
-      padding: 1px 50px;
+      padding: 1px 10px;
       text-decoration: none;
       font-size: 15px;
       font-family: Righteous;
@@ -34,18 +42,69 @@
     .topnav a:hover {
       color: white;
     }
+    .container {
+      fontsize_ 40px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 2fr 3fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .item1 {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+    .item2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+    .item3 {
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+    }
+    .item4 {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    .item5 {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
+    .item6 {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+    .item7 {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+    }
+    .item8 {
+      grid-column: 3 / 4;
+      grid-row: 1 / 5;
+    }
   </style>
 </head>
 <body style="background-color: #0B0C10">
-  <h1> Ally. </h1>
-
   <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#Blog">Blog</a>
-    <a href="#about">About</a>
     <a href="#contact">Contact</a>
+    <a href="#My-creations">My creations</a>
+    <a href="#blog">Blog</a>
+    <a class="active" href="#home">Home</a>
   </div>
-  <hr>  
-  <h2>The desire to create is one of the deepest yearnings of the human soul.</h2>
+  <h1> Ally. </h1>
+  <hr>
+    <div class="container">
+    <div class="item1">
+    <p> image </P>
+    </div>
+    <div class="item2">
+    <h2>It's not who you <i>are</i> that holds you back, it's who you think you're <i>not</i>.</h2>
+    <p align="justify"> Hi, my name is Alouette. I am a KYC analyst, but with a strong affection for creativity! I am always learning and tinkering and developing new skills. Trial and error. Failures. It's all part of the journey, but it's exiting nonetheless! This time my new project is software development and I am taking you with me on my journey.  </p>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+</div>
 </body>
 </html>
